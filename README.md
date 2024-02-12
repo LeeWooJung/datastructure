@@ -4,7 +4,7 @@
 
 [Explanation Page](https://lunareclipse000.wordpress.com/category/%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-%ec%8a%a4%ed%84%b0%eb%94%94/%ec%9e%90%eb%a3%8c%ea%b5%ac%ec%a1%b0/)
 
-## Type of Data Structure
+## Type of Data Structure or Alrogithm
 
 -----
 
