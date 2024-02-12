@@ -4,6 +4,10 @@
 
 :full_moon: Implementation of BFS
 
-* Main.java consists of Main class, node class, edge class
+* There are 3 classes.
 
-Main class implements BFS using Queue data structure.
+- Main class implements BFS using Queue data structure.
+
+- node class implements node which can have many children.
+
+- edge class implements edge.
