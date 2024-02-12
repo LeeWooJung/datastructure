@@ -6,8 +6,8 @@
 
 * There are 3 classes.
 
-- Main class implements BFS using Queue data structure.
+    - Main class implements BFS using Queue data structure.
 
-- node class implements node which can have many children.
+    - node class implements node which can have many children.
 
-- edge class implements edge.
+    - edge class implements edge.
