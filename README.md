@@ -32,3 +32,5 @@
 
 -----
 
+:fire: [Heap](https://lunareclipse000.wordpress.com/2024/03/01/java-heap/)
+
