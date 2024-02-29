@@ -1,18 +1,14 @@
-## Getting Started
+# Heap <img src = "https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white">
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+[Explanation page](https://lunareclipse000.wordpress.com/2024/03/01/java-heap/)
 
-## Folder Structure
+---------
 
-The workspace contains two folders by default, where:
+:full_moon: Implementation of Heap
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---------
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**📦src**  
+ ┗ **heap** : package of Union & Find Algorithm.  
+ ┃ ┣ **📜Main.java** : Show example using Heap data structure. 
+ ┃ ┣ **📜HEAP.java** : implements Heap data structure

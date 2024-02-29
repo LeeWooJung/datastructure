@@ -119,7 +119,7 @@ public class HEAP<E> {
     private void resize(int newSize) {
 
         E[] newArray = (E[]) new Object[newSize];
-        for(int index = 1; index < this.data.length; index++) {
+        for(int index = 1; index < this.data.length && index < newSize; index++) {
             newArray[index] = this.data[index];
         }
 
@@ -159,6 +159,10 @@ public class HEAP<E> {
         }
 
         return sb.toString();
+    }
+
+    public int arraySize() {
+        return this.size;
     }
 
     public int size() {
