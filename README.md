@@ -20,10 +20,7 @@
 
 -----
 
-:fire: [Breadth First Search, BFS](https://lunareclipse000.wordpress.com/2024/01/28/bfsbreadth-first-search/)
-
------
-
+:fire: [Breadth First Search, BFS](https://lunareclipse000.wordpress.com/2024/01/28/bfsbreadth-first-search/)  
 :fire: [Depth First Search, DFS](https://lunareclipse000.wordpress.com/2024/01/29/dfsdepth-first-search/)
 
 -----
@@ -32,8 +29,7 @@
 
 -----
 
-:fire: [Heap](https://lunareclipse000.wordpress.com/2024/03/01/java-heap/)
+:fire: [Heap](https://lunareclipse000.wordpress.com/2024/03/01/java-heap/)  
+:fire: HeapSort - 작성중
 
 -----
-
-:fire: HeapSort - 작성중
