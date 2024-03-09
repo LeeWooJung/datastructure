@@ -9,6 +9,6 @@
 ---------
 
 **📦src**  
- ┗ **heap** : package of Union & Find Algorithm.  
+ ┗ **heap** : package of heap.  
  ┃ ┣ **📜Main.java** : Show example using Heap data structure.  
  ┃ ┣ **📜HEAP.java** : implements Heap data structure
