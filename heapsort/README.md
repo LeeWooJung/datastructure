@@ -11,4 +11,4 @@ Explanation page : 작성중
 **📦src**  
  ┗ **heapsort** : package of Union & Find Algorithm.  
  ┃ ┣ **📜Main.java** : Show example using Heap Sort.  
- ┃ ┣ **📜HEAP.java** : implements Heap Sorts Alogirhtm.
+ ┃ ┣ **📜HEAP.java** : implements Heap Sorts Alogirhtm using heapify. you can select to make array elements ascending or descending order using asc arguments.
