@@ -5,7 +5,7 @@ public class HeapSort<E> {
     public int size;
     public boolean asc;
 
-    private int heapSize;
+    private int lastIndex;
 
     public HeapSort(E[] data) {
         this(data, true);
@@ -14,14 +14,14 @@ public class HeapSort<E> {
     public HeapSort(E[] data, boolean asc) {
         this.data = data;
         this.size = data.length;
-        this.heapSize = this.size - 1;
+        this.lastIndex = this.size - 1;
         this.asc = asc;
     }
 
     public void sort() {
         if(size < 2) return;
 
-        int startidx = getParentIndex(size-1);
+        int startidx = getParentIndex(lastIndex);
 
         // make maxheap
         while(startidx >= 0) {
@@ -30,8 +30,8 @@ public class HeapSort<E> {
         }
 
         // sorting progress
-        while(heapSize > 0) {
-            swap(0, heapSize--);
+        while(lastIndex > 0) {
+            swap(0, lastIndex--);
             heapify(0);
         }
 
@@ -68,18 +68,21 @@ public class HeapSort<E> {
 
     private int getLeftChildIndex(int index) {
         int leftchildIndex = index * 2 + 1;
-        return leftchildIndex > heapSize ? -1 : leftchildIndex;
+        return leftchildIndex > lastIndex ? -1 : leftchildIndex;
     }
 
     private int getRightChlidIndex(int index) {
         int rightChildIndex = index * 2 + 2;
-        return rightChildIndex > heapSize ? -1 : rightChildIndex;
+        return rightChildIndex > lastIndex ? -1 : rightChildIndex;
     }
 
     /*
      * if element is larger than parent, then result is positive value
      * else if element is smaller than parent, then result is negative value
      * else if each value is same then return 0
+     * 
+     * if asc is false, it assumes you want sort array descending order.
+     * therefore it returns with its sign changed.
      */
     private int compare(E parent, E element) {
         @SuppressWarnings("unchecked")

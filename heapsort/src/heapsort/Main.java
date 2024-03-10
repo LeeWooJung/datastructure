@@ -2,6 +2,10 @@ package heapsort;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        /*
+         * Since HeapSort class is Generic Class,
+         * You should make type of array as Wrapper Class.
+         */
         Integer[] array = {1,4,2,9,5,3,4,2};
 
         // ascending order
