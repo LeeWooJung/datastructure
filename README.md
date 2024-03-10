@@ -30,6 +30,6 @@
 -----
 
 :fire: [Heap sort](https://lunareclipse000.wordpress.com/2024/03/01/java-heap/)  
-:fire: HeapSort - 작성중
+:fire: [HeapSort](https://lunareclipse000.wordpress.com/2024/03/10/java-heap-sort-%ea%b5%ac%ed%98%84/#heapifymethod)
 
 -----
