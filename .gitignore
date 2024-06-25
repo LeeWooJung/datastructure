@@ -1,0 +1,7 @@
+# JAVA
+bin/
+lib/
+/src/*.class
+
+# Visual Studio Code
+.vscode/
