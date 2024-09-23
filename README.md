@@ -18,6 +18,8 @@
 
 :fire: [Binary Search Tree](https://lunareclipse000.wordpress.com/2024/02/03/binary-search-treejava/)
 
+:fire: Segment Tree
+
 -----
 
 :fire: [Breadth First Search, BFS](https://lunareclipse000.wordpress.com/2024/01/28/bfsbreadth-first-search/)  
